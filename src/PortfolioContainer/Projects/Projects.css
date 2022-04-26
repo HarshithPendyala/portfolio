@@ -1,0 +1,15 @@
+ .p{
+     text-align: center;
+    position: relative;
+    padding-top: 70px;
+}
+
+.p-title{
+    margin: 10px 0px;
+    font-family: 'Poppins Semibold';
+    font-weight: 300;
+    color: #E4E6EB;
+    border-bottom:solid 2px #5bc0de;
+
+
+}

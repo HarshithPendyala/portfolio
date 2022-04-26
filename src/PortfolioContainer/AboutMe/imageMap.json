@@ -1,0 +1,36 @@
+[
+    {
+        "id": "469f9800-c45a-483f-b13e-bd24f3fb79f4",
+        "title": "Front-end",
+        "shape": "rect",
+        "name": "1",
+        "fillColor": "#32a8a04D",
+        "strokeColor": "black",
+        "href":"www.google.com",
+        "coords": [
+            332,98,796,260
+        ]
+    },
+    {
+        "id": "1db62daa-22a4-4b02-b5c0-fffdcf77c66c",
+        "title": "tools",
+        "shape": "rect",
+        "name": "2",
+        "fillColor": "#32a8a04D",
+        "strokeColor": "black",
+        "coords": [
+            322,290,800,435
+        ]
+    },
+    {
+        "id": "a87203cb-3916-48ea-856f-2bacab8b7eda",
+        "title": "Backend",
+        "shape": "rect",
+        "name": "3",
+        "fillColor": "#32a8a04D",
+        "strokeColor": "black",
+        "coords": [
+            331,454,792,533
+        ]
+    }
+]

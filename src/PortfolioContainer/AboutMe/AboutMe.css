@@ -1,0 +1,48 @@
+ .a{
+    padding-top: 70px;
+}
+.a-desc{
+    text-align: center;
+    font-weight: 500;
+    font-family: 'Poppins Semibold';
+    font-size: 150%;
+    color: #B0B3B8;
+
+
+}
+ 
+.a-head{
+    font-weight: 500;
+    font-family: 'Poppins Semibold';
+    color: #E4E6EB;
+    border-bottom:solid 2px #5bc0de;
+
+}
+
+img{
+    position: relative;
+}
+
+.skills-head{
+    font-weight: 500;
+    margin: 20px 0px;
+    font-family: 'Poppins Semibold';
+    color: #E4E6EB;
+    border-bottom:solid 2px #5bc0de;
+
+}
+
+.iconsk{
+    padding: 20px;
+    color: #B0B3B8;
+
+} 
+.express{
+    color: #B0B3B8;
+    font-size: xx-large;
+}
+
+h2{
+    color: #E4E6EB;
+
+}
