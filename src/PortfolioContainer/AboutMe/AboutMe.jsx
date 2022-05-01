@@ -1,5 +1,5 @@
 import React from "react";
-import "./aboutme.css";
+import "./AboutMe.css";
 import Fade from 'react-reveal/Fade';
 import {FaLinkedin,FaGithubSquare} from 'react-icons/fa';
 import {HiDocument} from 'react-icons/hi'
