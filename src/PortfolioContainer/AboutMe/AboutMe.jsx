@@ -1,91 +1,49 @@
-import React,{  useState } from "react";
-import "./AboutMe.css";
-import {FaHtml5,FaCss3,FaJsSquare,FaReact,FaNodeJs,FaBootstrap,FaGitAlt,FaGithub} from 'react-icons/fa';
-import {SiMongodb,SiPostman,SiMysql} from 'react-icons/si';
-import ImageMapper from 'react-img-mapper';
-import URI from '../../assets/Home/burger.svg';
-import areasJson from './imageMap.json'
-// import {  useState } from "react/cjs/react.production.min";
+import React from "react";
+import "./aboutme.css";
+import Fade from 'react-reveal/Fade';
+import {FaLinkedin,FaGithubSquare} from 'react-icons/fa';
+import {HiDocument} from 'react-icons/hi'
+
+
 
 export default function AboutMe() {
-  const [skill,setSkill] = useState("");
-  const URL = URI;
-  const MAP = {
-    name: "skills-map",
-    areas: areasJson
-  }
-  const updateSkill = (skill) =>{
-    setSkill(skill);
-  }
-  
-  const SkillRender = () => {
-    if(skill === "Front-end"){
-      return(
-        <div style={{position:'relative'}} > 
-        <h2>Front-End</h2>
-          <span className="fa-3x iconsk "><FaHtml5/></span>
-          <span className="fa-3x iconsk "><FaCss3/></span>
-          <span className="fa-3x iconsk "><FaJsSquare/></span>
-          <span className="fa-3x iconsk "><FaReact/></span>
-          <span className="fa-3x iconsk "><FaBootstrap/></span>          
-        </div>        
-      );
-    }
-    else if(skill === "tools"){
-      return (
-        <div style={{position:'relative'}} > 
-          <h2>Tools/Middleware</h2>
-          <span className="express">Express.js</span>
-          <span className="fa-3x iconsk "><FaGitAlt/></span>
-          <span className="fa-3x iconsk "><FaGithub/></span>
-          <span className="fa-3x iconsk "><SiPostman/></span>
-        </div>
-      );
-    }
-    else if(skill === "Backend"){
-      return(
-        <div style={{position:'relative'}} > 
-          <h2>Back-End</h2>
-          <span className="fa-3x iconsk "><FaNodeJs/></span>
-          <span className="fa-3x iconsk "><SiMongodb/></span>
-          <span className="fa-3x iconsk "><SiMysql/></span>
-
-        </div>
-      );
-    }
-    else {
-      return (<div style={{color:'#B0B3B8'}}>Click on parts of Hamburger to know more</div>);
-    }
-  }
   return (
-     <div className="a container" id="aboutme">
+    <div className="container a" id="aboutme">
       <div className="row justify-content-center">
-        <h1 className="a-head col-7 col-sm-6 col-md-auto font-weight-bold">About Me</h1>
+        <h1 className="col-auto col-sm-auto col-md-auto">About Me</h1>
       </div>
-      <div className="row justify-content-center">
-        <p className="a-desc col-12 col-sm-12 col-md-auto">I am a web developer with a passion for creating beautiful, responsive websites and web applications. <br/>
-      In my free time I like to read books, watch anime and play badminton.</p>
-      </div>
-      <div className="skills row justify-content-center">
-        <h1 className="skills-head col-4 col-sm-3 col-md-auto font-weight-bold">Skills</h1>
-          
-      </div>
-      <div className="row justify-content-center">
-      <div className="col-12 col-sm-6">
+      <div className="row justify-content-center mt-5">
+      <Fade left="true" duration={500} delay={250} distance="30px">
 
-      <ImageMapper 
-        src={URL} 
-        map={MAP} 
-        responsive parentWidth={375} 
-        onClick={(area,index,event)=>{
-          updateSkill(area.title);
-        }}/>
-      </div>
-        <div className="col-12 col-sm-6">
+          <div className="col-12 col-sm-12 col-md-4 align-self-start">
+            <img src={require('../../assets/Home/hello.svg').default} className="img-fluid" alt="hello-Undraw-SVG"/>
+            <div className="row justify-content-center mt-4">
 
-          <SkillRender/>
-        </div>
-          
+              <a className='text-secondary fa-3x  m-1' href='https://www.linkedin.com/in/harshith-pendyala?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BE6nIx2DVQCS%2F4R4ICfESAQ%3D%3D' target='_blank' rel='noreferrer'><FaLinkedin/></a>
+              <a className='text-secondary fa-3x  m-1' href='https://github.com/HarshithPendyala' target='_blank' rel='noreferrer'><FaGithubSquare/></a>
+              <a className='text-secondary fa-3x  m-1' href="Harshith-Pendyala.pdf" target="_blank" rel="noreferrer" ><HiDocument/></a>          
+            </div>
+                
+          </div>
+      </Fade>
+      <Fade right="true" duration={500} delay={250} distance="30px">
+
+          <div className="col-12 col-sm-12 col-md-8 ">
+            <h3 className="text-white mt-4"> Hi 👋, I'm Harshith</h3>
+            <p className="desc">
+            Ever since i was a kid, Technology has tickled my curious brain especially "Computer" and "The Internet".
+            I was fascinated by the amazing applications which kept me glued to the computer and wanted to learn how to build them. This led me to do my Undergrad in Computer Engineering 
+            which i completed in 2020 <i>(yes, in the middle of pandemic)</i>. 
+            </p>
+            <p className="desc">  
+            I started playing around with HTML,CSS and JavaScript, which led me to discover how good it felt to make applications; to create somthing out of nothing.
+            Later i got my hands dirty with React.js and a touch of backend development using Node.js. I quickly absorbed new concepts and put them use by building projects as often as i can.
+            </p>
+            <p className="desc">
+              When I'm not coding, I'm usually playing badminton, reading interesting books, working out in the gym or tring out new recipe.  
+            </p>
+          </div>
+        </Fade>
       </div>
     </div>
   );

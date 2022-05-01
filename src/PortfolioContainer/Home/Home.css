@@ -1,18 +1,49 @@
 .home-container{
-    /* background-color: blue; */
     padding-top: 70px;
     color: #E4E6EB;
-    
+    min-height: 100vh;
 }
 .name{
     font-size: 300%;
+  
+}
+.name>span{
+    background: -webkit-linear-gradient(#70d9ec, #bf5de2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .iType{
-    font-size: 200%;
+    font-size: 60%;
     color: #B0B3B8;
 
 }
+.resume{
+    position: relative;
+}
+.desc{
+    font-size: 40%;
+    color: #B0B3B8;
+    font-family: "Poppins SemiBold";
+}
+.DropDownMenu{
+    background-color: #242526 !important;
 
+}
+.DropDownItem {
+    color: #E4E6EB !important;
+
+}
+.DropDownItem a {
+    color: #E4E6EB !important;
+    text-decoration: none;
+
+}
+
+.DropDownItem:hover{
+    color: black;
+    background-color: #3A3B3C !important;
+    border-radius: 10px;
+}
 
 
 /* .profile-container{

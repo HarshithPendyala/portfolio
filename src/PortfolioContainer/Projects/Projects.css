@@ -1,15 +1,16 @@
  .p{
      text-align: center;
     position: relative;
-    padding-top: 70px;
+    padding-top: 100px;
+    min-height: 100vh;
 }
 
 .p-title{
     margin: 10px 0px;
     font-family: 'Poppins Semibold';
     font-weight: 300;
-    color: #E4E6EB;
-    border-bottom:solid 2px #5bc0de;
-
+    background: -webkit-linear-gradient(#70d9ec, #bf5de2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;    
 
 }

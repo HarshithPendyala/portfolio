@@ -1,0 +1,106 @@
+ 
+ 
+ .a{
+    padding-top: 100px;
+    min-height: 100vh;
+}
+/* .a-desc{
+    text-align: center;
+    font-weight: 500;
+    font-family: 'Poppins Semibold';
+    font-size: 1.5rem;
+    color: #B0B3B8;
+
+
+}
+ 
+.a-head{
+    font-weight: 500;
+    font-family: 'Poppins Semibold';
+    color: #E4E6EB;
+    border-bottom:solid 2px #5bc0de;
+
+}
+ */
+img{
+    position: relative;
+}
+
+.skills-head{
+    font-weight: 800;
+    margin: 20px 0px;
+    font-family: 'Poppins Semibold';
+    background: -webkit-linear-gradient(#70d9ec, #bf5de2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* border-bottom:solid 2px #5bc0de; */
+
+}
+
+.iconsk{
+    padding: 20px;
+    color: #B0B3B8;
+
+} 
+.express{
+    color: #B0B3B8;
+    font-size: xx-large;
+}
+
+h2{
+    color: #E4E6EB;
+
+}
+.skills-wrapper{
+    display: flex;
+      height: 100%;
+      align-items: center;
+      justify-content: center;
+}
+.burger-wrapper>.burger-overlay {
+      position:absolute;
+      top: 0;
+      height: 316px;
+      width: 350px;
+      cursor: pointer;
+      z-index: 3;
+    }
+
+    .burger-overlay>.top-overlay {
+        z-index: 6;
+        width: 100%;
+        height: 40%;
+      }
+      .burger-overlay>.top-overlay:hover{
+        background-size: 350px 316px;
+        background-image: url('../../images/burger_topbun.png');
+        background-repeat: no-repeat;
+        
+      }
+      .burger-overlay>.mid-overlay {
+        z-index: 6;
+        width: 100%;
+        height: 35%;
+      }
+      .burger-overlay>.mid-overlay:hover{
+        background-size: 350px 316px;
+        background-position: 0px -127px;
+        background-image: url('../../images/burger_middle.png');
+        background-repeat: no-repeat;
+        
+      }
+      .burger-overlay>.bot-overlay {
+        z-index: 6;
+        width: 100%;
+        height: 25%;
+      }
+      .burger-overlay>.bot-overlay:hover{
+        background-size: 350px 316px;
+        background-position: 0px -240px;
+
+        background-image: url('../../images/burger_bottombun.png');
+        background-repeat: no-repeat;
+        
+      }
+    
+  

@@ -5,7 +5,7 @@ export const ProjectsData = [
         id: 1,
         img: '/projects/youtube-stats.gif',
         title:'Youtube-Stats',
-        description:'Youtube-stats application extracts information and statistics about a Youtube video. It helps Youtube content creaters to find tags of existing videos which are used for SEO Optimization.',
+        description:'Youtube-stats application extracts information and statistics about a Youtube video. It helps Youtube content creaters to find tags of existing videos which are used for Search Engine Optimization.',
         technologies:['Axios','GoogleAPI','React','States','Classes ','Props','Bootstrap'],
         live_demo:'https://harshith-pendyala-youtube-stats.netlify.app/',
         code_link:'https://github.com/HarshithPendyala/YoutubeStats'
@@ -15,7 +15,7 @@ export const ProjectsData = [
         id: 2,
         img: '/projects/tic-tac-toe.gif',
         title:'Tic-Tac-Toe',
-        description:'A simple yet tactful game,Tic-Tac-Toe implemented in React',
+        description:'A simple yet tactful game,Tic-Tac-Toe implemented in React, with history of moves feature',
         technologies:['React','Hooks','Functional components','CSS3'],
         live_demo:'https://harshtih-pendyala-tic-tac-toe.netlify.app/',
         code_link:'https://github.com/HarshithPendyala/Tic-Tac-Toe'        

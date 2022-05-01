@@ -1,7 +1,5 @@
 import React, { useState } from 'react'
 import './Navbar.css';
-import {FaDownload} from 'react-icons/fa';
-
 import 
 { Navbar,
   NavbarBrand,
@@ -10,27 +8,30 @@ import
   Nav,
   NavbarToggler,
   Collapse,
-  Button
+  Container
 
 } from 'reactstrap';
 
 export const Navigationbar = () => {
   const [isOpen,setIsOpen] = useState(false);
   return (
-    
-    <Navbar  color='dark' className='nv' dark expand='md' fixed='top'>
-      <NavbarBrand href='#home' className='font-weight-bolder text-info nvb '>HP</NavbarBrand>
-      <NavbarToggler onClick={()=>{setIsOpen(!isOpen)}}/>
-      <Collapse isOpen={isOpen} navbar>
-        <Nav navbar className='ml-auto'>
-          <NavItem><NavLink href='#aboutme'>About Me</NavLink></NavItem>
-          <NavItem><NavLink href='#projects'>Projects</NavLink></NavItem>
-          <NavItem><NavLink href='#contact'>Contact</NavLink></NavItem>
-          <NavItem><NavLink href="Harshith.Pendyala.pdf" download="Harshith.Pendyala.pdf">
-          <Button outline color='info'> Get Resume <FaDownload/> </Button>
-          </NavLink></NavItem>
-        </Nav>
-      </Collapse>
-    </Navbar>
+    <div className='container'>
+
+      <Navbar  color='dark' className='nv' dark expand='md' fixed='top'>
+        <Container>
+
+        <NavbarBrand href='#home' className='font-weight-bolder nvb '>HP</NavbarBrand>
+        <NavbarToggler onClick={()=>{setIsOpen(!isOpen)}}/>
+        <Collapse isOpen={isOpen} navbar>
+          <Nav navbar className='ml-auto'>
+            <NavItem><NavLink href='#skills'  className='pages active'>Skills</NavLink></NavItem>
+            <NavItem><NavLink href='#projects' className='pages'>Projects</NavLink></NavItem>
+            <NavItem><NavLink href='#aboutme' className='pages'>About</NavLink></NavItem>
+            <NavItem><NavLink href='#contact' className='pages'>Contact</NavLink></NavItem>
+          </Nav>
+        </Collapse>
+        </Container>
+      </Navbar>
+    </div>
   )
 }
