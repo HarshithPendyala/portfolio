@@ -18,7 +18,7 @@ import sql from "../../images/sql.jpg";
 import jenkins from "../../images/jenkins.jpg";
 
 import burger_blank from "../../images/burger_blank.png";
-import TechStackElement from "./TechStackElement";
+import TechStackElement from "../Home/TechStackElement";
 
 export default function Skills() {
   const [skill, setSkill] = useState("");

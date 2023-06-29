@@ -38,26 +38,26 @@ export default function ContactMe() {
           <Fade left="true" duration={500} delay={250} distance="30px">
 
           <div className="row">
-            <h1 className="c-title">Get in touch</h1>
+            <h1 className="c-title col-12 col-sm-8 text-sm-left text-center">Get in touch</h1>
           </div>
           <div className="row">
-            <p className="c-desc">
-              You can shoot me an email, send me a message on LinkedIn, or, if
+            <p className="c-desc col-12 col-sm text-sm-left text-center">
+              You can shoot me an email or if
               you prefer, use the contact form.
             </p>
           </div>
-          <div className="c-info row">
+          <div className="c-info">
             <ButtonDropdown
-              className="col-6 col-md-auto rounded"
-              style={{ height: "40px", marginTop: "15px" }}
+              className="col-4 col-sm rounded"
+              style={{ height: "40px", marginTop: "15px"}}
               isOpen={dropOpen}
               toggle={() => setDropOpen(!dropOpen)}
-              direction="up"
+              direction="down"
             >
-              <DropdownToggle caret size="sm">
+              <DropdownToggle caret size="sm" className="DropDownToggle">
                 harshith.pendyala777@gmail.com
               </DropdownToggle>
-              <DropdownMenu className="DropDownMenu">
+              <DropdownMenu className="DropDownMenu" container="body">
                 <DropdownItem className="DropDownItem">
                   <a href="mailto:harshithPendyala777@gmail.com">
                     {" "}
@@ -75,11 +75,7 @@ export default function ContactMe() {
                 </DropdownItem>
               </DropdownMenu>
             </ButtonDropdown>{" "}
-          </div>
-          <div className="row">
-
-            <a href="https://www.linkedin.com/in/harshith-pendyala/" target="_blank" rel="noreferrer" className="btn btn-dark mt-4 ml-3" >Message me on LinkedIn <FaLinkedin/> </a>
-          </div>
+          </div> 
         </Fade>
         </div>
         <div className="c-right col-12 col-sm-12 col-md-6 mt-4">
@@ -111,7 +107,7 @@ export default function ContactMe() {
                 placeholder="I'm thinking about giving my lightsaber..."
                 name="message"
               />
-              <input className="btn btn-info mt-2" type="submit" value="send"/>
+              <input className="btn btn-outline-primary mt-2" type="submit" value="send"/>
           </form>
             <div className="m-1">
               {" "}

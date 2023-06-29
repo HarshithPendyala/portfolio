@@ -15,13 +15,12 @@ function App() {
   return (
     <>
 
-      <Navigationbar/>
     <div className='app'>
+      <Navigationbar/>
       <ParticleBackground/>
         <Home/>
-        <Skills/>
-        <Projects/>
         <AboutMe/>
+        <Projects/>
         <ContactMe/> 
         <Footer/>
       </div>

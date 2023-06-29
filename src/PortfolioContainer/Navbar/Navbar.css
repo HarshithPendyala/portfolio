@@ -10,27 +10,19 @@
 
 .nv{
     font-size: 130%;
-    background-color: #242526 !important;
+    background-color: #E0E0E0 !important;
 }
 .nvb{
-    font-size: 200% !important;    
+    font-size: 130% !important;    
     font-family: 'Poppins Semibold';
-    background: -webkit-linear-gradient(#70d9ec, #bf5de2);
+    /* background: -webkit-linear-gradient(#2672dd, #5dbce2);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent; */
     font-weight: 500 !important;
-
 } 
 
 
 
-/* .wrapper{
-    align-items: center;
-    display: flex;
-    padding: 6px 30px;
-    justify-content: space-between;
-
-} */
 
 .logo > a{
     text-decoration: none;
@@ -41,19 +33,15 @@
 }
 
 .pages{
-/* padding: 0px 10px; */
-/* text-decoration: none;
-font-weight: 600;
-color: var(--light-blue);
-font-size: 120%; */
 margin: 5px;
-background: -webkit-linear-gradient(#70d9ec, #bf5de2);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-
-
+color: black;
+font-family: 'Poppins Semibold';
+font-size: 100% !important;
+font-weight: 500 !important;
 }
 .pages:hover{
-   border-bottom: solid 2px #592fa2;
+    background: -webkit-linear-gradient(#2672dd, #5dbce2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 

@@ -9,9 +9,8 @@ min-height: 80vh;
 .c-title{
     font-weight: 500;
     font-family: 'Poppins Semibold';
-    background: -webkit-linear-gradient(#70d9ec, #bf5de2);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    font-family: 'Poppins Semibold';
+    color:rgb(57, 131, 241); 
 
 }
 .c-icon{
@@ -19,22 +18,14 @@ min-height: 80vh;
     height: 30px;
     margin-right: 5px;
 }
-.c-info-item{
-    display: flex;
-    align-items: center;
-    margin: 50px 0px;
-    font-weight: 300;
-    font-family: 'Poppins Semibold';
-    color: #E4E6EB;
 
-} 
 .c-desc{
-    color: #B0B3B8;
+    color: #212121;
+    font-family: "Poppins SemiBold";
 }
 
-
 form{
-    background-color: #242526;
+    background-color: #BDBDBD;
     height: 100%;
     padding: 5px 5px;
     border-radius: 10px;
@@ -43,9 +34,9 @@ input{
     margin-top: 10px;
     border: none;
     font-size: 14px;
-    background-color:#3A3B3C;
+    background-color:#EEEEEE;
     height:35px;
-    color: #E4E6EB;
+    color: #212121;
     border-radius: 8px;
 
 
@@ -53,11 +44,11 @@ input{
 
  textarea{
     margin-top: 10px;
-    background-color:#3A3B3C;
+    background-color:#EEEEEE;
     border: none;
     font-size: 14px;
     padding-left: 10px;
     border-radius: 8px;
-    color: #E4E6EB;
+    color: #212121;
 } 
 

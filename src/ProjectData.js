@@ -14,11 +14,11 @@ export const ProjectsData = [
     {
         id: 2,
         img: '/projects/tic-tac-toe.gif',
-        title:'Tic-Tac-Toe',
-        description:'A simple yet tactful game,Tic-Tac-Toe implemented in React, with history of moves feature',
-        technologies:['React','Hooks','Functional components','CSS3'],
-        live_demo:'https://harshtih-pendyala-tic-tac-toe.netlify.app/',
-        code_link:'https://github.com/HarshithPendyala/Tic-Tac-Toe'        
+        title:'LinkedIn-Clone',
+        description:'LinkedIn-Clone',
+        technologies:['React','Redux','Functional components','Hooks','Google Firebase'],
+        live_demo:'https://linkedin-clone-4ddc7.web.app/',
+        code_link:'https://github.com/HarshithPendyala/linkedin-clone'        
     },
     {
         id: 3,

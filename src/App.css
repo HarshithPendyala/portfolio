@@ -22,21 +22,3 @@
 .app{
   scroll-behavior: smooth;
 }
-  
- /* .app > .sections{
-  width: 100%;
-  height: calc(100vh - 80px);
-   position: relative;
-   top: 70px;
-   scroll-behavior: smooth;
-  scroll-snap-type: y mandatory;
-  overflow-y: auto;
-  
-}  */
-
- /* .sections > *{
-  width: 100vw; 
-  margin-top: 70px;
-  height: calc(100vh - 80px);  
-  scroll-snap-align: start;
-}    */

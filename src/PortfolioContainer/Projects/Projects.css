@@ -7,10 +7,16 @@
 
 .p-title{
     margin: 10px 0px;
-    font-family: 'Poppins Semibold';
     font-weight: 300;
-    background: -webkit-linear-gradient(#70d9ec, #bf5de2);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;    
+    font-family: 'Poppins Semibold';
+    color:rgb(57, 131, 241);  
+}
 
+.p_cards{
+    color: #212121;
+    font-family: "Poppins SemiBold";
+}
+
+.btn:hover{
+    color: blue !important;
 }
