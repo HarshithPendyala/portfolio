@@ -13,7 +13,7 @@ export const ProjectsData = [
     },
     {
         id: 2,
-        img: '/projects/tic-tac-toe.gif',
+        img: '/projects/linkedin-clone.gif',
         title:'LinkedIn-Clone',
         description:'LinkedIn-Clone',
         technologies:['React','Redux','Functional components','Hooks','Google Firebase'],
