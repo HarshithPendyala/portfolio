@@ -13,6 +13,7 @@ import redux from "../../images/redux.png";
 import javascript from "../../images/javascript.png";
 import css from "../../images/css.png";
 import bootstrap from "../../images/bootstrap.png";
+import tailwind from "../../images/tailwind.png"
 
 
 
@@ -54,10 +55,10 @@ export default function Home() {
             <div className="tech_stack_items col-12 col-sm-7 flex-wrap justify-content-center">
               <TechStackElement key={`${Math.random()}`} icon={HTML} title="HTML5"></TechStackElement>
               <TechStackElement key={`${Math.random()}`} icon={css} title="CSS3"></TechStackElement>
-            <TechStackElement key={`${Math.random()}`} icon={javascript} title="JavaScript"></TechStackElement>
+              <TechStackElement key={`${Math.random()}`} icon={javascript} title="JavaScript"></TechStackElement>
               <TechStackElement key={`${Math.random()}`} icon={react} title="React"></TechStackElement>
               <TechStackElement key={`${Math.random()}`} icon={redux} title="Redux"></TechStackElement>
-              <TechStackElement key={`${Math.random()}`} icon={bootstrap} title="Bootstrap"></TechStackElement>
+              <TechStackElement key={`${Math.random()}`} icon={tailwind} title="Tailwind"></TechStackElement>
             </div>
           </div>
         </Fade>

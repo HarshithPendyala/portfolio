@@ -15,7 +15,7 @@ export const ProjectsData = [
         id: 2,
         img: '/projects/linkedin-clone.gif',
         title:'LinkedIn-Clone',
-        description:'LinkedIn-Clone',
+        description:'LinkedIn-Clone: Implemented login functionality using Firebase authentication and managed state using Redux. Dynamic update of news feed.',
         technologies:['React','Redux','Functional components','Hooks','Google Firebase'],
         live_demo:'https://linkedin-clone-4ddc7.web.app/',
         code_link:'https://github.com/HarshithPendyala/linkedin-clone'        
@@ -28,5 +28,12 @@ export const ProjectsData = [
         technologies:['HTML','CSS','JavaScript','DOM Manipulation'],
         live_demo:'https://harshith-pendyala-memory-game.netlify.app/',
         code_link:'https://github.com/HarshithPendyala/Memory_Game'        
+    },
+    {
+        id: 4,
+        img: '',
+        title:'Gymate',
+        description:'One stop solution for your fitness goals. COMING SOON!',
+        technologies:['React','TailwindCSS','Hooks'],       
     }
 ];
